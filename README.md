@@ -1,56 +1,48 @@
-# Teknisiku App
-## Bangkit Capstone Project 2024 Batch 2
+# Teknisiku - Machine Learning
+## Bangkit Capstone Project 2024
+Bangkit Capstone Team ID : C242-PS201 <br>
+Here is our repository for the Bangkit 2024 Capstone project - Machine Learning.
 
-Bangkit Capstone Team ID : C242 - PS201 <br>
-Here is our team Capstone Product Based repository for Bangkit 2024 Batch 2 Capstone project. Our team consist of 2 Mobile Development, 3 Machine Learning, and 2 Cloud Computing.
+## Description
+Machine Learning models can be used to inform a content-based filtering approach for its recommendation system. This involves analyzing the proximity as well as the rating of each location, providing quality and nearby recommendations according to the user's position. 
 
-## Our Soldiers
+## Method
+Content-based Recommendation Systems with Neural Networks
 
-| Name                        |   Bangkit-ID  |    Learning Path   |          Contact Link             |
-|-----------------------------|---------------|--------------------|-----------------------------------|
-| Wiola Derul Rahayu          | M284B4KX4501  | Machine Learning   | [LinkedIn](https://www.linkedin.com/in/wioladerulrahayu) or [GitHub](https://github.com/wioladerul/)|
-| Jelang Ramadhan             | M284B4KY2050  | Machine Learning   | [LinkedIn](www.linkedin.com/in/darojatul-aliyah31) or [GitHub](https://github.com/darojatulaliyah31)|  
-| Rafika Nanda Agustina       | M284B4KX359   | Machine Learning   | [LinkedIn](#) or [GitHub](#)      |
-| Darojatul Aliyah            | C004B4KX1004  | Cloud Computing    | [LinkedIn](#) or [GitHub](#)      |
-| Reni Tri Susanti            | C013B4KX3750  | Cloud Computing    | [LinkedIn](#) or [GitHub](#)      |
-| Dika Setiawan               | A177B4KY1129  | Mobile Development | [LinkedIn](#) or [GitHub](#)      |
-| Alfirdous Geraldi Agviandra | A175B4KY0364  | Mobile Development | [LinkedIn](#) or [GitHub](#)      |
+## Tools
+- Python
+- Sklearn
+- Math
+- TensorFlow
+- NumPy
+- Pandas
+- Matplotlib
+- Google Colab
+## Dataset
+We made the dataset from scratch by specifying the variables manually in Excel. We created 3 datasets, Model Dataset, Service Dataset, and General Solution Dataset. Variables for the Model Dataset are Nama Tempat, Longitude, Latitude, rating. The explanation of each variable is as follows :
+- Nama Tempat : Names of laptop/computer repair shops that will be available on the app from the cities of Surabaya, Yogyakarta, and Solo.
+- Longitude : The longitude location of each laptop/computer service center.
+- Latitude : The latitude location of each laptop/computer service center.
+- Rating : Ratings for the service place or technician of the laptop/computer service place from users who have used the service.
+[Dataset Model](https://docs.google.com/spreadsheets/d/1wxiVcxTBrXx9ryhlIE481d1_ccXc1eaMt191JTLil7o/edit?gid=1503308781#gid=1503308781)
 
+The variables for the Service Dataset are Nama Tempat, Foto, Deskripsi, Longitude, Latitude, No Telp, Rating, dan Ulasan. The explanation of each variable is as follows :
+- Nama Tempat : Names of laptop/computer repair shops that will be available on the app from the cities of Surabaya, Yogyakarta, and Solo.
+- Foto : Photos of each laptop/computer service center.
+- Deskripsi : Description of each existing laptop/computer service center.
+- Longitude : The longitude location of each laptop/computer service center.
+- Latitude :  The latitude location of each laptop/computer service center.
+- No Telp : Phone number of each existing laptop/computer service center.
+- Rating : Ratings for the service place or technician of the laptop/computer service place from users who have used the service.
+- Ulasan : Reviews for the service center or technicians of the service center from users who have used the service.
+[Dataset Servis](https://docs.google.com/spreadsheets/d/1ZUxRrJ6_YrTMGGre9Z71Ur-j4MyOwVQ_i6tYxxmwJOw/edit?gid=0#gid=0)
 
-## About this project
+The variables for the General Solution Dataset are Masalah and Solusi. The explanation of each variable is as follows:
+- Masalah : Common problems that usually occur with laptops/computers.
+- Solusi : General solutions / tips to handle every common laptop/computer problem.
+[Dataset Solusi Umum](https://docs.google.com/spreadsheets/d/1lh4mUvs-PW-GjYtNCZwxHs4T6g8n9hnglF7CSE8M0hg/edit?gid=0#gid=0)
 
-Teknisiku is an application that provides information services regarding the best service recommendations for users based on the closest distance and the best rating. In this application there is a main feature, namely the home page which immediately displays recommendations for service places for users. In addition to the main feature, there is also an additional feature in the form of a solution feature that provides information about common device problems along with solutions that users can apply independently. In addition to these two features, there is an additional feature where users can save favorite service places so that it is easy to find them again in the future. Please enjoy the features provided by our application 😊😊😊😊
+We use the Model Dataset to build the model, while the Service Dataset and General Solution Dataset will be used by the cloud computing team to create an application database.
+## How to Recommend
+The machine learning model can provide recommendations to users where the nearest laptop / computer service is and is supported by ratings and reviews. This computer/laptop service place recommendation is for the cities of Surabaya, Yogyakarta, and Solo.
 
-## Documentation
-
-![TEKNISIKU](https://storage.googleapis.com/foto-tempat-service/logo/Logo.png)<br>
-
-## Repositories
-
-|    Branch Name     |                                      Branch Link                                         |
-| :----------------: | :--------------------------------------------------------------------------------------: |
-| Mobile Development | [MD Branch](#) |
-|  Cloud Computing   | [CC Branch](https://github.com/darojatulaliyah31/Bangkit-Capstone-C242-PS201/tree/Cloud-Computing) |
-|  Machine Learning  | [ML Branch](#) |
-
-## API Documentations
-
-API Documentation Endpoint : [Endpoint](https://www.postman.com/capstone-teknisiku-api/workspace/capstone-teknisiku-api-workspace/documentation/39952491-6b064205-feab-4104-997d-ef9df317defa)
-
-## Datasets
-
-Dataset Links of This Project :
-
-- [Dataset](https://docs.google.com/spreadsheets/d/1ZUxRrJ6_YrTMGGre9Z71Ur-j4MyOwVQ_i6tYxxmwJOw/edit?usp=sharing)
-
-## UI/UX Design
-
-- Link Lo-Fi Design : [Lo-Fi](#)
-- Link Hi-Fi User Design : [User Hi-Fi](#)
-- Link Hi-Fi Technician Design : [Technician Hi-Fi](#)
-- Link Prototype Design : [Prototype](#)
-
-## Deployment Link APK Teknisiku
-
-Download Link APK Teknisiku:<br>
-[Teknisiku (Google Drive)](#)
